@@ -1,4 +1,4 @@
-I"j)<p>Unsupervised learning is used to analyze unlabeled data. These algorithms discover hidden patterns in the data without the need for human intervention.</p>
+I"[*<p>Unsupervised learning is used to analyze unlabeled data. These algorithms discover hidden patterns in the data without the need for human intervention.</p>
 
 <p>Clustering, a type of unsupervised learning problem, is especially useful as groups data based on their similarities and differences.
 Our aim here is to be able to provide the best clustering.</p>
@@ -61,7 +61,9 @@ Now, we shift the centroid to the average of the current cluster.</p>
 
 <p>Here we have a few data points aligned in a straight line, and our aim is the same. Form the most optimal clusters.</p>
 
-<p><img src="/img/posts/kmeans/variance_images/comparison.png" alt="" /></p>
+<p>
+<img src="/img/posts/kmeans/variance_images/comparison.png" width="800" />
+</p>
 
 <p>Here’s a few options for you. Which option do you think forms the best clusters.</p>
 
@@ -69,7 +71,9 @@ Now, we shift the centroid to the average of the current cluster.</p>
 
 <p>If we take the drawn lines and put them together as shown in the below figure, we can see that the line of option B take the smallest length.</p>
 
-<p><img src="/img/posts/kmeans/variance_images/answers.png" alt="" /></p>
+<p>
+<img src="/img/posts/kmeans/variance_images/answers.PNG" width="800" />
+</p>
 
 <p>Now ask yourself, just what do these lines represent?</p>
 
@@ -124,10 +128,14 @@ Representation for separation for the same sample — b(i)</p>
 
 <p>Silhouette analysis using the average of the score for the samples. A much better way to make a decision is to visualize the spread of the scores for each sample. In the following pictures, we have shown the distribution of silhouette scores for our dataset.</p>
 
-<p align="middle">
-  <img src="/img/posts/kmeans/sil2.png" width="300" />
-  <img src="/img/posts/kmeans/sil3.png" width="300" /> 
-  <img src="/img/posts/kmeans/sil4.png" width="300" />
+<p float="middle">
+  <img src="/img/posts/kmeans/sil2.png" width="200" />
+  <img src="/img/posts/kmeans/sil3.png" width="200" /> 
+  <img src="/img/posts/kmeans/sil4.png" width="200" />
+</p>
+<p float="middle">
+  <img src="/img/posts/kmeans/sil5.png" width="300" />
+  <img src="/img/posts/kmeans/sil6.png" width="300" /> 
 </p>
 
 <p>To analyze a silhouette plot like above, we need to observe 2 things.</p>
@@ -143,9 +151,9 @@ The average silhouette score for K values 4, 5 and 6 are significant. But only t
 <h1 id="references">References:</h1>
 <p>Implement the above two methods:</p>
 
-<p>WCSS: https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html</p>
+<p><a href="https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html">Within Cluster Sum of Squares</a></p>
 
-<p>Silhouette analysis: https://scikit-learn.org/stable/auto_examples/cluster/plot_kmeans_silhouette_analysis.html</p>
+<p><a href="https://scikit-learn.org/stable/auto_examples/cluster/plot_kmeans_silhouette_analysis.html">Silhouette analysis</a></p>
 
-<p>Github link: https://github.com/NainaniJatinZ/EvaluatingUnsupervisiedMLBlog</p>
+<p><a href="https://github.com/NainaniJatinZ/EvaluatingUnsupervisiedMLBlog">Github link for code and visualizations</a></p>
 :ET
